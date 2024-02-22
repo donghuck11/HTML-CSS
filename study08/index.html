@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>박스 모델을 구성하는 속성 다루기</title>
+    <style>
+        .block-1{
+            margin-top: 50px;
+            margin-bottom: 100px;
+            border: 1px solid red;
+            padding: 10px;
+            width: 100px;
+            height: 100px;
+            box-sizing: border-box;
+            display: block;
+        }
+        .block-2{
+            display: inline;
+        }
+    </style>
+</head>
+<body>
+    <p class="block-1">block-1</p>
+    <p class="block-2">block-2</p>
+    <span class="inline-1">inline-1</span>
+    <span class="inline-2">inline-2</span>
+</body>
+</html>
